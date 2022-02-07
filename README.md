@@ -1,1 +1,1 @@
-# bluecoding_challenge
+# React app for Blue Coding Challenge

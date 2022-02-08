@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base src --hot --inline",
+    "start": "webpack serve --port 3000 --open --hot",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,7 +32,6 @@
     "html-loader": "^0.5.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
     "sass": "^1.49.7",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
